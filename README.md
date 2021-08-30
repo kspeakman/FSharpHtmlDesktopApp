@@ -79,6 +79,13 @@ npm run start
 * Press F5
 
 
+## Browser Dev tools
+
+In Debug mode you can right-click somewhere inside the WPF window to bring up the Edge context menu. Which includes Inspect. This will open the Edge (Chromium) dev tools in another window.
+
+In Release mode this is disabled.
+
+
 ## Packaging the HTML UI
 
 The built web app can be included in the WPF project. Or it can be independently deployed to a web server.
