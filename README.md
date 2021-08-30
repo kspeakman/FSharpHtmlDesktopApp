@@ -1,6 +1,6 @@
 # F# HTML Desktop app
 
-This example solution demonstrates creating a desktop app using F# and HTML for the UI. The desktop app is hosted in WPF.
+This sample app demonstrates a desktop app using HTML/CSS/F# for the UI and F# .NET for the back end. All hosted in WPF.
 
 
 ## How does it work?
