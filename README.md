@@ -16,6 +16,15 @@ The host application is WPF. WinForms would work too. Either way there is not mu
 For communication between the JS front and .NET back, I used WebView2's string-based messaging. Each side gets some functions to send/receive messages. Types from the messaging library are converted to JSON strings for transport.
 
 
+## What does it look like?
+
+Right now it mainly demos the technical capability of front-to-back communication. So it is not much to look at.
+
+![image](https://user-images.githubusercontent.com/4582668/131415157-149db106-12e6-456f-9b50-f2af96434661.png)
+
+> TODO polish up the starter UI
+
+
 ## Install pre-requisites
 
 You'll need to install the following pre-requisites in order to build SAFE applications
