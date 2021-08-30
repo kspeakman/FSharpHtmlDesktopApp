@@ -3,6 +3,19 @@
 This example solution demonstrates creating a desktop app using F# and HTML for the UI. The desktop app is hosted in WPF.
 
 
+## How does it work?
+
+The UI is a webpack-built JS app just like you would expect. It uses F# and Elmish for a functional (as in functional programming) UI. The F# code gets transpiled to JS and uses React for DOM rendering.
+
+The "backend" API is an F# library. In this starter app, the backend is very simple. So there is nothing interesting to demonstrate yet.
+
+A messaging library is shared between the front and back. It defines all the requests and responses that can pass between them. 
+
+The host application is WPF. WinForms would work too. Either way there is not much to it. The only control is the WebView2 control. And about 40 lines of wiring code.
+
+For communication between the JS front and .NET back, I used WebView2's string-based messaging. Each side gets some functions to send/receive messages. Types from the messaging library are converted to JSON strings for transport.
+
+
 ## Install pre-requisites
 
 You'll need to install the following pre-requisites in order to build SAFE applications
