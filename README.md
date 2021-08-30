@@ -18,7 +18,7 @@ For communication between the JS front and .NET back, I used WebView2's string-b
 
 ## What does it look like?
 
-Right now it mainly demos the technical capability of front-to-back communication. So it is not much to look at.
+Right now it mainly demos the front-to-back communication. So it is not much to look at.
 
 ![image](https://user-images.githubusercontent.com/4582668/131415157-149db106-12e6-456f-9b50-f2af96434661.png)
 
