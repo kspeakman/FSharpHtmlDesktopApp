@@ -139,6 +139,18 @@ webView.Source = new Uri("https://app.ui");
 Copy the built assets from the `deploy/public` folder to your web server. Then set the Source to the web server deploy location.
 
 
+## Security
+
+[Reference documentation](https://docs.microsoft.com/en-us/microsoft-edge/webview2/concepts/security)
+
+> _Untested_
+
+Ideas
+* prevent the user from navigating off your app in WebView2 by handling `NavigationStarting` and `FrameNavigationStarting` events
+* block external scripts/assets using CSP (part of UI app)
+  * include assets in UI build instead of pulling from CDN
+
+
 ## Acknowledgements
 
 This project is adapted from the SAFE template.

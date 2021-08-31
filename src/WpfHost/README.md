@@ -7,18 +7,6 @@ It should only contain wiring code for WPF and WebView2.
 **There should be no UI or API logic in this project.**
 
 
-## WebView2 Security
-
-[Reference documentation](https://docs.microsoft.com/en-us/microsoft-edge/webview2/concepts/security)
-
-> _Untested_
-
-Ideas
-* prevent the user from navigating off your page by handling `NavigationStarting` and `FrameNavigationStarting` events
-* block external scripts/assets using CSP (part of UI app)
-  * include assets in UI build instead of pulling from CDN
-
-
 ## WebView2 Runtime
 
 This uses a Fixed Version Runtime WebView2. This was a deliberate choice because I have had apps broken suddenly and unexpectedly by Chromium updates.
