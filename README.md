@@ -97,7 +97,7 @@ npm run start
 
 ## Browser Dev tools
 
-In Debug mode you can right-click somewhere inside the WPF window to bring up the Edge context menu. Which includes Inspect. This will open the Edge (Chromium) dev tools in another window.
+In Debug mode you can right-click somewhere inside the WPF window to bring up the Edge context menu. Click Inspect. This will open the Edge (Chromium) dev tools in another window.
 
 In Release mode this is disabled.
 
