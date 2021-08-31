@@ -59,6 +59,13 @@ For more information about Evergreen vs Fixed Version Runtimes, see the WpfHost 
   ```
   * This ensures the WebView2 runtime will be included in the built app.
 * Change the MainWindow.xaml.cs file to reference the exact WebView2 folder name.
+  ```csharp
+            webView.CreationProperties =
+                new CoreWebView2CreationProperties
+                {
+                    BrowserExecutableFolder = "{WebView2 folder}"
+                };
+  ```
 
 > TODO
 > * script installation to project
